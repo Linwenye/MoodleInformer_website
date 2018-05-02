@@ -3,3 +3,4 @@ Jinja2
 SQLAlchemy
 flask-login
 flask-bootstrap
+requests
