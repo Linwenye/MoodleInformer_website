@@ -8,7 +8,7 @@
 
 ## 使用截图
 
-![使用截图](https://github.com/Linwenye/MoodleInformer_website/effect.png)
+![使用截图](https://github.com/Linwenye/MoodleInformer_website/blob/master/effect.png)
 
 ## 如何使用
 
