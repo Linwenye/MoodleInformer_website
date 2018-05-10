@@ -1,15 +1,27 @@
-.my-form h2{
+.my-form h2 {
     text-align: center;
     margin-top: 20px;
 }
 
-.my-form h6{
+.my-form h6 {
     text-align: center;
     margin: 20px 50px;
     color: gray;
 }
 
-.inform-wrap{
+
+.my-form img {
+    margin-left: 40%;
+}
+
+.my-form .wrap {
+    margin-left: 30%;
+}
+.my-form .wrap img{
+    margin-left: 5%;
+}
+
+.inform-wrap {
     width: 760px;
     height: auto;
     background: #fff;
@@ -23,4 +35,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 57px 130px 33px 95px;
+}
+
+@media (max-width: 767px) {
+    .inform-wrap {
+        width: 400px;
+        padding: 50px 10px;
+    }
+
+    .my-form h6 {
+        text-align: center;
+        margin: 2px 2px;
+        color: gray;
+    }
+
+    .my-form .wrap {
+        display: none;
+    }
+    .my-form img{
+        margin-left: 32%;
+    }
 }
