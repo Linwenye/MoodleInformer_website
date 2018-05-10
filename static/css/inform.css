@@ -1,0 +1,26 @@
+.my-form h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-form h6{
+    text-align: center;
+    margin: 20px 50px;
+    color: gray;
+}
+
+.inform-wrap{
+    width: 760px;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 57px 130px 33px 95px;
+}

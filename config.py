@@ -1,7 +1,0 @@
-MONGO_HOST = '118.89.178.181'
-MONGO_PORT = 27018
-MONGO_DBNAME = 'moodle'
-MONGO_AUTH_SOURCE = 'admin'
-MONGO_USERNAME = 'root'
-MONGO_PASSWORD = 'Cyfhhh111'
-MONGO_CONNECT = False  # if multiprocessing

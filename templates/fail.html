@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moodle Informer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="{{ url_for('static',filename='images/icons/favicon.ico') }}"/>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static',filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='vendor/animate/animate.css') }}">
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static',filename='vendor/css-hamburgers/hamburgers.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='vendor/select2/select2.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/util.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/inform.css') }}">
+</head>
+<body>
+<div class="limiter">
+    <div class="container-login100">
+        <div class="inform-wrap">
+            <div class="container">
+                <div class="my-form">
+                    <img src="{{ url_for('static',filename='images/swal2-warning.png') }}" alt="IMG"
+                         style="margin-left: 40%">
+                    <h2>订阅失败</h2>
+                    <hr>
+
+                        <h6>用户名密码不正确</h6>
+                        <div class="wrap" style="margin-left: 30%">
+                            <label>网站Github源码链接：</label>
+                            <a href="https://github.com/Linwenye/MoodleInformer_website" class="am-icon-btn am-icon-github">
+                                <img src="{{ url_for('static',filename='images/Github-Mark-32px.png') }}">
+                            </a>
+                        </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
