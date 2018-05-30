@@ -4,7 +4,7 @@ import config
 
 
 def verify(email, password):
-    url = 'http://218.94.159.99/login/index.php'
+    url = 'http://219.219.120.72/login/index.php'
     formdata = {
         'username': email,
         'password': password,
